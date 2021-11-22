@@ -17,6 +17,9 @@ export default function Home() {
         <Description>
           Yes, my domain is parked at my own cloud service, deal with it.
         </Description>
+        <Description>
+          This probably means I'm working on something that will be hosted here
+        </Description>
       </Main>
 
       <Footer>
@@ -73,6 +76,8 @@ const Description = styled.p`
   text-align: center;
   line-height: 1.5;
   font-size: 1.5rem;
+  margin: 0;
+  margin-top: 20px;
 `;
 
 const FooterText = styled.p``;
